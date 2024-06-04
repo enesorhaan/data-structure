@@ -7,7 +7,7 @@ public class Main {
         bl.addElementLast(6);
         bl.addElementFront(563);
         bl.printLinkedList();
-        bl.deleteNode(563);
+        bl.deleteNode(23);
         bl.printLinkedList();
         bl.addElementLast(67);
         bl.addElementFront(87);
