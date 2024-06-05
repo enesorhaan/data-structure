@@ -21,6 +21,13 @@ public class Main {
         System.out.println("");
         System.out.println(agac.degeriAra(agac.kok, 90));
         System.out.println(agac.degeriAra(agac.kok, 80));
-        System.out.println(agac.enKucukDegeriBul(agac.kok));
+        System.out.println("En kucuk deger: " + agac.enKucukDegeriBul(agac.kok));
+        System.out.println("En buyuk deger: " + agac.enBuyukDegeriBul(agac.kok));
+
+        System.out.println("Max Min Farki: " + agac.farkiBul());
+
+        System.out.println("Agac Yuksekligi: " + agac.maxDepth(agac.kok));
+
+        System.out.println("Agac Dengeli Mi?: " + (agac.dengeliMi(agac.kok) ? "Evet" : "Hayir"));
     }
 }
